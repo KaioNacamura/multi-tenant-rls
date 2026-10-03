@@ -1,0 +1,17 @@
+{
+  "name": "multi-tenant-rls",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Isolamento entre empresas com Row-Level Security no PostgreSQL, com teste que prova o isolamento.",
+  "type": "module",
+  "scripts": {
+    "setup": "node scripts/setup.js",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "pg": "^8.23.1"
+  },
+  "devDependencies": {
+    "vitest": "^3.2.7"
+  }
+}
